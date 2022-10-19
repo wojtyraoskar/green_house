@@ -1,4 +1,4 @@
-defmodule MyApp.EventStoreDbClient do
+defmodule GreenHouse.EventStoreDbClient do
   use Spear.Client,
-    otp_app: :my_app
+    otp_app: :green_house
 end

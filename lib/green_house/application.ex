@@ -15,7 +15,9 @@ defmodule GreenHouse.Application do
       # Start the PubSub system
       {Phoenix.PubSub, name: GreenHouse.PubSub},
       # Start the Endpoint (http/https)
-      GreenHouseWeb.Endpoint
+      GreenHouseWeb.Endpoint,
+      GreenHouse.EventStoreDbClient,
+      GreenHouse.Door.Subscriber.DoorBellSubscriber
       # Start a worker by calling: GreenHouse.Worker.start_link(arg)
       # {GreenHouse.Worker, arg}
     ]

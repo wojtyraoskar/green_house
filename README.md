@@ -1,6 +1,6 @@
 # GreenHouse
 
-GreenHouse is just example project with few nice solutions that i find during work ;)
+GreenHouse is just example project with EventStoreDB
 
 To start your Phoenix server:
 
